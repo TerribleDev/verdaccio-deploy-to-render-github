@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: verdaccio
+    region: oregon # optional (defaults to oregon)
+    plan: starter # optional (defaults to starter)
+    env: docker
+    disk:
+      name: verdaccio-data
+      mountPath: /verdaccio/storage
+      sizeGB: 1 # optional
+    envVars:
+      - key: GITHUB_CLIENT_ID
+        sync: false
+      - key: GITHUB_CLIENT_SECRET
+        sync: false
+      - key: GITHUB_ORG
+        sync: false
