@@ -8,7 +8,7 @@ This is a deploy to [render](https://render.com) button for [Verdaccio](https://
 
 * Fork this repo. **You must not use this repo to press the button** if you do any changes to this repo will sync to your infrastructure.
 * Press the button in your fork
-
+* You can find additional config options on the [verdaccio-github-oauth-ui](https://github.com/n4bb12/verdaccio-github-oauth-ui) project.
 
 ## Looking for a clean slate?
 
